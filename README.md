@@ -1,8 +1,9 @@
-# Conteúdo de JavaScrip do BOOTCAMP Carrefour Web Developer da DIO
+# Conteúdo de JavaScript do BOOTCAMP Carrefour Web Developer da DIO
 
 ## Coleções:
 
 Foram abordados os seguintes itens abaixo junto com o exercicio onde a resolução se encontra nos arquivos "map.js" e "set.js"
+
 Object Map
 Object Set
 
@@ -25,3 +26,13 @@ Objeto Error
         Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo RangeError
     Utilize a declaração try...catch
     Filtre as chamadas de catch por cada tipo de erro utilizando o operador instanceof
+
+## JavaScript Assíncrono
+
+Foram abordados conceitos de Promises, Aync/Awaitch, APIs e Fetch junto com o exercicio onde a resolução se encontra dentro da pasta "javascript-assincrono"
+
+### Exercicio
+
+    Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
+        - Utilize a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método fetch();
+        - Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão! 
