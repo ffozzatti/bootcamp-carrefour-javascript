@@ -2,10 +2,19 @@
 
 ## Coleções:
 
-Foram abordados os seguintes itens abaixo junto com o exercicio onde a resolução se encontra nos arquivos "map.js" e "set.js"
+Foram abordados os concitos de Object Map e Object Set itens abaixo junto com o exercicio onde a resolução se encontra na pasta "colecoes"
 
-Object Map
-Object Set
+### Ecercício
+
+    Atividade 1: Maps
+    Crie uma função que retorna o nome dos membros de um Map que tem o papel 'ADMIN' no sistema.
+        - Crie uma função getAdmins que recebe um Map;
+        - Crie um Map e popule-o com nomes de usuários e seus papeis no sistema. (Ex: 'Luiz' => 'Admin');
+        -Dentro de getAdmins, utilize o loop for...of para retornar uma lista com os nomes dos usu;arios que são administradores.
+
+    Atividade 2: Sets
+    Dado o array [30, 30, 40, 5, 223, 2049, 3034, 5], retorne outro array apenas com valores únicos.
+
 
 ## Debugging e Error Handling:
 
@@ -68,3 +77,33 @@ Foram abordados conceitos de Protótipos e Classes junto com o exercicio onde a 
         Retorno - 500
         Comando - minhaConta.sacar(600)
         Retorno - 'Operação negada'
+
+## Map, Filter e Reduce
+
+Foram abordados conceitos da implantação dos métodos Map, Filter e Reduce junto com o exercicio onde a resolução se encontra dentro da pasta "orientacao-a-objetos"
+
+### Execícios
+
+        Map:
+        - Pratique a sintaxe de multiplicação de números, uma vez utilizando o parâmetro this de um objeto criado por você, e depois sem ele.
+
+        Filter:
+        - Filtre e retorne todos os números pares de um array.
+
+        Reduce:
+        - Some todos os números de um array
+        - Crie uma função que recebe uma lista de preços e um número representando o saldo disponível. Calcule qual será o saldo final após subtrair todos os preços da lista enviada.
+
+
+## DOM
+
+Foram abordados conceitos do DOM e seus métodos junto com o exercicio onde a resolução se encontra dentro da pasta "orientacao-a-objetos"
+
+### Execícios
+
+    Atividade: Light Mode/Dark Mode
+        - Crie uma estrutura básica de projeto front-end (HTML, CSS e JS)
+        - Copie o HTML e o CSS deste repositório
+        - Crie um arquivo chamado scripts.js na sua pasta assets/js
+        - Selecione os elementos: h1, button, footer e body
+        - Se os elementos possuirem a classe dark-mode, modifique seus estilos. Caso contrário, volte os estilos para o original
